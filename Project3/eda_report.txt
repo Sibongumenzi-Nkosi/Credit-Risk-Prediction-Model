@@ -1,0 +1,30 @@
+Skewness Analysis:
+Unnamed: 0                                0.000000
+SeriousDlqin2yrs                          3.468857
+RevolvingUtilizationOfUnsecuredLines     97.631574
+age                                       0.188995
+NumberOfTime30-59DaysPastDueNotWorse     22.597108
+DebtRatio                                95.157793
+MonthlyIncome                           114.040318
+NumberOfOpenCreditLinesAndLoans           1.215314
+NumberOfTimes90DaysLate                  23.087345
+NumberRealEstateLoansOrLines              3.482484
+NumberOfTime60-89DaysPastDueNotWorse     23.331743
+NumberOfDependents                        1.588242
+
+Kurtosis Analysis:
+Unnamed: 0                                 -1.200000
+SeriousDlqin2yrs                           10.033103
+RevolvingUtilizationOfUnsecuredLines    14544.713410
+age                                        -0.494669
+NumberOfTime30-59DaysPastDueNotWorse      522.376545
+DebtRatio                               13734.288858
+MonthlyIncome                           19504.705403
+NumberOfOpenCreditLinesAndLoans             3.091067
+NumberOfTimes90DaysLate                   537.738945
+NumberRealEstateLoansOrLines               60.476808
+NumberOfTime60-89DaysPastDueNotWorse      545.682744
+NumberOfDependents                          3.001657
+
+ANOVA Test (Age vs Default):
+F_onewayResult(statistic=2023.9931291103226, pvalue=0.0)
