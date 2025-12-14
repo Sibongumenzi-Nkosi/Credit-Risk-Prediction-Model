@@ -1,5 +1,5 @@
 # =========================================
-# CREDIT RISK PREDICTION - SINGLE FILE (FINAL FIXED)
+# CREDIT RISK PREDICTION 
 # =========================================
 
 import os
@@ -24,7 +24,7 @@ RUN_TRAINING = True      # Set False when only running API
 MODEL_PATH = 'credit_risk_model.pkl'
 
 # =========================================
-# FEATURE ENGINEERING (SHARED)
+# FEATURE ENGINEERING 
 # =========================================
 def feature_engineering(df):
     df = df.copy()
@@ -162,4 +162,5 @@ def predict():
 # =========================================
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
 
